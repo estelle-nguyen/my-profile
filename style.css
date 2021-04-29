@@ -1,3 +1,6 @@
+
+/* General */
+
 body {
     background: rgb(210,198,242);
     background: linear-gradient(155deg, rgba(210,198,242,1) 0%, rgba(176,223,243,1) 70%);
@@ -23,6 +26,48 @@ p {
     color: rgb(88, 88, 88);
 }
 
+.button {
+    background-color: #4253FF;
+    width: 160px;
+    text-align: center;
+    padding: 15px 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.15);
+    border: solid 2px #ffffff;
+    padding: 60px;
+    margin-bottom: 40px;
+}
+
+#profile-page {
+    width: 65%;
+    padding: 60px;
+    margin: 80px auto;
+}
+
+/* Section photo Estelle */
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #profile-image {
     border-radius: 15px;
     width: 200px;
@@ -30,11 +75,13 @@ p {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 } 
 
-#profile-page {
-    width: 65%;
-    padding: 60px;
-    margin: 80px auto;
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+/* Section Education */
 
 #studies-background {
     display: flex;
@@ -55,6 +102,8 @@ p {
     height: 50px;
 }
 
+/* Section Work Experience */
+
 .professionnal-section {
     display: flex;
     align-items: center;
@@ -70,6 +119,8 @@ p {
     width: 85px;
     border-radius: 50%;
 }
+
+/* Section Skills */
 
 #skills-section {
     display: flex;
@@ -113,6 +164,8 @@ p {
     margin: 30px 10px;
 }
 
+/* Section Personnality */
+
 #personnality {
     display: flex;
     justify-content: space-around;
@@ -123,6 +176,8 @@ p {
     text-align: center;
     align-items: center;
 }
+
+/* Section Passions */
 
 #passions {
     display: flex;
@@ -144,47 +199,7 @@ p {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.button {
-    background-color: #4253FF;
-    width: 160px;
-    text-align: center;
-    padding: 15px 8px;
-    border-radius: 5px;
-    margin-top: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s;
-}
-
-.button:hover {
-    opacity: 70%;
-}
-
-.button a {
-    color: white;
-    text-decoration: none;
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.15);
-    border: solid 2px #ffffff;
-    padding: 60px;
-    margin-bottom: 40px;
-}
-
-#profile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
-#description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+/* Section Réseaux Sociaux */
 
 #socials {
     display: flex;
@@ -196,6 +211,8 @@ p {
     height: 5vh;
     margin-right: 20px;
 }
+
+/* Responsive Desktop */
 
 @media (max-width: 980px) {
     .container {
@@ -234,8 +251,9 @@ p {
         height: auto;
     }
     
-
 }
+
+/* Responsive Tablet */
 
 @media (max-width: 760px) {
 
