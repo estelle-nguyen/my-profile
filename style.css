@@ -1,0 +1,335 @@
+body {
+    background: rgb(210,198,242);
+    background: linear-gradient(155deg, rgba(210,198,242,1) 0%, rgba(176,223,243,1) 70%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+p {
+    color: rgb(88, 88, 88);
+}
+
+#profile-image {
+    border-radius: 15px;
+    width: 200px;
+    margin: 0 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+} 
+
+#profile-page {
+    width: 65%;
+    padding: 60px;
+    margin: 80px auto;
+}
+
+#studies-background {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.studies-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.studies-section img {
+    height: 50px;
+}
+
+.professionnal-section {
+    display: flex;
+    align-items: center;
+}
+
+.professionnal-section img {
+    height: 100px;
+    margin: 10px 40px 10px 60px;
+}
+
+#cliiink img {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+
+#skills-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.skills-card {
+    background: rgba(210,198,242);
+    background: linear-gradient(155deg, rgba(210,198,242,1) 0%, rgba(176,223,243,1) 70%);
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.skills-card h3 {
+    font-size: 18px;
+}
+
+.skills-card li {
+    list-style: none;
+}
+
+.skills-card ul {
+    padding: 0px;
+}
+
+#tools {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#tools img {
+    height: 60px;
+    width: auto;
+    margin: 30px 10px;
+}
+
+#personnality {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.personnality-section {
+    text-align: center;
+    align-items: center;
+}
+
+#passions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.passions-section {
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.passions-section img {
+    height: 45vh;
+    width: 16vw;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button {
+    background-color: #4253FF;
+    width: 160px;
+    text-align: center;
+    padding: 15px 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s;
+}
+
+.button:hover {
+    opacity: 70%;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.15);
+    border: solid 2px #ffffff;
+    padding: 60px;
+    margin-bottom: 40px;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#socials img {
+    height: 5vh;
+    margin-right: 20px;
+}
+
+@media (max-width: 980px) {
+    .container {
+        padding: 35px;
+    }
+
+    #profile-page {
+        padding: 25px;
+    }
+
+    #profile-image {
+        height: 30%;
+    }
+
+    .skills-card {
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 15px;
+    }
+
+    .skills-card h3 {
+        font-size: 18px;
+    }
+
+    #tools img {
+        height: 6vh;
+    }
+
+    .passions-section img {
+        height: 25vh;
+        width: 15vw;
+    }
+
+    .button {
+        width: 14vw;
+        height: auto;
+    }
+    
+
+}
+
+@media (max-width: 760px) {
+
+    #profile-page {
+        width: 90%;
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    #profile {
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+
+    #profile-image {
+        border-radius: 15px;
+        width: 30vw;
+        margin: 0px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    } 
+
+    .container {
+        padding: 30px;
+
+    }
+
+   .button {
+       margin: 5px auto;
+       width: 20vw;
+        height: auto;
+   }
+
+   h1 {
+       font-size: 24px;
+   }
+
+   h2 {
+       font-size: 20px;
+   }
+
+   #studies-background {
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .studies-section {
+        margin: 15px 20px;
+    }
+
+    .professionnal-section {
+        display: block;
+        text-align: center;
+    }
+
+    #skills-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .skills-card {
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    #tools img {
+        height: 40px;
+        width: auto;
+        margin: 30px 10px;
+    }
+
+    #personnality {
+        flex-wrap: wrap;
+    }
+
+    #passions {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+    
+    .passions-section {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    .passions-section img {
+        height: auto;
+        width: 80%;
+    }
+
+}
